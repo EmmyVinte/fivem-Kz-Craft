@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+}
+
+body, html{
+  display: flex;
+  margin: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas', sans-serif;
+  font-size: 62.5%;
+}
+
+.containerBody {
+  display: flex;
+  flex-direction: column;
+  width: 800px; /*-------------------------------------------*/
+  height: 500px; /*-------------------------------------------*/
+  background-color: #00000086;
+  border-radius: 10px;
+}
+
+.containerHeader {
+  width: 100%;
+  border: 20px 20px 0px 0px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.caixaTitulo {
+  display: flex;
+  align-items: center;
+}
+.corTitulo {
+  height: 30px;
+  width: 10px;
+  margin-right: 5px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #FF8036;
+}
+.headerTitulo {
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.caixaSair {
+  display: flex;
+  align-items: center;
+}
+.textoSair {
+  margin-right: 10px;
+}
+.botaoSair {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #FF8036;
+}
+.botaoSair:hover {
+  background-color: #A03A10;
+}
+
+
+.headerOpcoes {
+  margin: 0px 10px 10px 10px;
+}
+.NavButtons {
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #000;
+}
+.NavButtons:hover {
+  color: #A03A10;
+}
+.Unselected {
+  text-decoration: underline;
+  text-decoration-color: #FF6600;
+  text-underline-position: under;
+}
+.Selecionado {
+  color: #FF6600;
+  text-decoration: underline;
+  text-decoration-color: #FF6600;
+  text-underline-position: under;
+}
+.Unselected:hover, .Selecionado:hover {
+  text-decoration-color: #A03A10;
+}
+
+.containerItems {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: auto; /*-------------------------------------------*/
+  height: 90%; /*-------------------------------------------*/
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #000;
+  /*SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL */
+  overflow-x: scroll;
+  /*SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL SCROLL */
+}
+#caixaItem {
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 170px;
+  border-radius: 5px;
+  background-color: #1F2020; /*Adicione a imagem aqui!!! */
+}
+#caixaTitulo {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #393A3A;
+
+}
+#textoTitulo {
+  align-self: center;
+  font-size: 20px;
+}
+
+
+.containerRotas {
+  display: flex;
+  flex-direction: row;
+  width: auto; /*-------------------------------------------*/
+  height: 100%;
+  gap: 10px;
+  margin: 0px 10px 10px 10px;
+}
+.containerRotaSelecao {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #1F2020;
+}
+.tituloRotaSelecionada {
+  color: #fff;
+  font-size: 20px;
+  align-self: center;
+  padding-bottom: 5px;
+}
+.imgRota {
+  cursor: pointer;
+  align-self: center;
+  height: 135px;
+  width: 135px;
+  border-radius: 5px;
+  background-color: #393A3A;
+}
+
+
+.containerOpcoesRota {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #1F2020;
+}
+.tituloRotaOpcoes {
+  color: #fff;
+  font-size: 20px;
+  align-self: center;
+  padding-bottom: 5px;
+}
+.caixaBotoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.botaoIniciarRota, .botaoEncerrarRota {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.botaoIniciarRota {
+  background-color: #35b814;
+}
+.botaoEncerrarRota {
+  background-color: #ff3636;
+}
+.botaoIniciarRota:hover {
+  background-color: #247e0e;
+}
+.botaoEncerrarRota:hover {
+  background-color: #911f1f;
+}

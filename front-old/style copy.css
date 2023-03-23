@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+
+body{
+    margin: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ContainerNUI {
+    display: flex;
+    align-items: center;
+    width: 810px;
+    position: absolute;
+    top: 50%;
+    left: 31.9123%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+  }
+
+  #HeaderButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 98.2%;
+    background-color: black;
+    color: white;
+    padding: 15px 15px 15px 0px;
+  }
+  
+  #Header {
+    display: flex;
+    justify-content: space-between;
+    width: 98.2%;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: transparent;
+    color: white;
+    padding: 15px 15px 20px 0px;
+  }
+  
+  #Header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Bebas', sans-serif;
+  }
+  
+  #Header b {
+    font-weight: bold;
+  }
+  
+
+  
+  
+  #HeaderButtons h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Bebas', sans-serif;
+  }
+  
+  #HeaderButtons b {
+    font-weight: bold;
+  }
+  
+.NavButtons{
+    background-color: transparent;
+    color: white;
+    font-family: 'Bebas', sans-serif;
+    font-size: 22px;
+    margin-left: 7vh;
+}
+
+.Selected{
+    text-decoration: underline;
+    text-decoration-color: #FF6600;
+    text-underline-position: under;
+    font-size: 24px;
+}
+
+.Main{
+    width: 100%;
+    margin-top: 15px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.Items{
+    display: flex;
+    background-color: black;
+    overflow-x: scroll;
+    border-radius: 10px;
+    margin-top: 5.5px;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 200px;
+}
+
+    .Item{
+            background-color: #414141;
+            width: 167.81px;
+            height: 155.55px;
+            margin: 0;
+            margin: 15px 0px 0px 20px;
+            border-radius: 7px;
+    }
+
+    .ItemHeader{
+        background-color: #222222;
+        border-radius: 6px 6px 0px 0px;
+        width: 169px;
+        text-align: center;
+        color: white;
+        font-family: 'Bebas';
+        font-size: 24px;
+        font-weight: 100;
+        align-self: flex-start; /* adicionado */
+        margin-bottom: 10px; /* adicione um espaçamento de 10 pixels entre o .ItemHeader e o restante do conteúdo da div .Item */
+        height: 43.59px;
+    }
+
+.ItemSelected{
+    background-color: #FF6600;
+    width: 167.81px;
+    height: 155.55px;
+    margin: 0;
+    border-radius: 7px;
+}
+
+.HeaderSelected{
+    background-color: #312116;
+    border-radius: 6px 6px 0px 0px;
+    width: 169px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas';
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 5px;
+    height: 43.59px;
+}
+
+.IniciarRota{
+    color: white;
+    font-family: 'Bebas', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Btn1{
+    width: 30%;
+    padding: 5px;
+    font-family: 'Bebas', sans-serif;
+    font-size: 24px;
+    color: white;
+    border-radius: 7px;
+    background-color: #FF6600;
+}
+
+.Btn2{
+    width: 30%;
+    padding: 5px;
+    font-family: 'Bebas', sans-serif;
+    font-size: 24px;
+    color: white;
+    border-radius: 7px;
+    background-color: #5a0c0c;
+}
+
+.RoteBox{
+  background-color: #414141;
+  position: absolute;
+  border-radius: 10px;
+  width: 150px;
+  height: 120px;
+}
